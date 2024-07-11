@@ -10,11 +10,45 @@
         background-color: blue;
         color: antiquewhite;
         text-align: center;
+        width: 100%;
+      }
+      header {
+        display: inline-flex;
+        background-color: #04d9ff;
+        width: 100%;
+      }
+      #about {
+        float: left;
+        margin: 2px;
+        padding-left: 0px;
+      }
+      .head {
+        float: left;
+        margin: 2px;
+        padding-left: 2px;
+      }
+      .top {
+        float: right;
+        margin-right: 5px;
+      }
+      #resume {
+        margin-top: 17px;
       }
     </style>
   </head>
   <body>
-    <h1 style="text-align: center; color: #04d9ff">My Resume</h1>
+    <header>
+      <div class="top"><h1 id="resume">My Resume</h1></div>
+      <div id="about" class="head">
+        <a href="./About Me/about.html" style="color: red"><h2>About me</h2></a>
+      </div>
+      <div class="head">
+        <a href="./Contact Me/Contact me.html" style="color: red"
+          ><h2>Contact Me</h2></a
+        >
+      </div>
+    </header>
+
     <div style="display: flex; justify-content: center">
       <img
         src="./resources/412402656_1113803100058939_2932302882099560427_n.jpg"
@@ -105,12 +139,7 @@
       </li>
     </ul>
     <hr />
-    <a href="./About Me/about.html" style="color: red"
-      ><h2 style="text-align: center">About me</h2></a
-    >
-    <a href="./Contact Me/Contact me.html" style="color: red"
-      ><h2 style="text-align: center">Contact Me</h2></a
-    >
+
     <footer>© Copyright 2024</footer>
   </body>
 </html>
