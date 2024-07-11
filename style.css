@@ -1,0 +1,30 @@
+footer {
+  justify-content: center;
+  padding: 5px;
+  background-color: blue;
+  color: antiquewhite;
+  text-align: center;
+  width: 100%;
+}
+header {
+  display: inline-flex;
+  background-color: #04d9ff;
+  width: 100%;
+}
+#about {
+  float: left;
+  margin: 2px;
+  padding-left: 0px;
+}
+.head {
+  float: left;
+  margin: 2px;
+  padding-left: 2px;
+}
+.top {
+  float: right;
+  margin-right: 5px;
+}
+#resume {
+  margin-top: 17px;
+}
