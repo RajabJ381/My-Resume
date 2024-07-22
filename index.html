@@ -4,21 +4,27 @@
     <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="top"><h1 id="resume">My Resume</h1></div>
-      <div id="about" class="head">
-        <a href="./About Me/about.html" style="color: red" target="_blank"><h2>About me</h2></a>
-      </div>
-      <div class="head">
-        <a href="./Contact Me/Contact me.html" style="color: red"
-          ><h2>Contact Me</h2></a
-        >
+      <div id="main-head">
+        <div class="head button"><h1 id="resume">My Resume</h1></div>
+        <div id="about" class="button">
+          <a href="./About Me/about.html" target="_blank">About Me</a>
+        </div>
+        <div class="button">
+          <a href="./Contact Me/Contact me.html">Contact Me</a>
+        </div>
       </div>
     </header>
 
-    <div style="display: flex; justify-content: center">
+    <div id="pic" style="display: flex; justify-content: center">
       <img
         src="./resources/412402656_1113803100058939_2932302882099560427_n.jpg"
         width="200px"
@@ -110,5 +116,6 @@
     <hr />
 
     <footer>© Copyright 2024</footer>
+    \
   </body>
 </html>
